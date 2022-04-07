@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap");
+.fnFamRegular {
+  font-family: "Rowdies", cursive;
+}
+.fnFamThin {
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+}
+.fnFamExtraLight {
+  font-family: "Catamaran", sans-serif;
+}
+.generalInfo {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e6f9f1;
+  align-items: center;
+}
+.hr1 {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+.vl1 {
+  border-left: 3px solid green;
+  height: 20px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.middlePart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  margin: 50px;
+}
+.middlePartUl {
+  list-style: none;
+  padding: 5px 15px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+}

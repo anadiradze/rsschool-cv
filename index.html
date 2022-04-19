@@ -12,23 +12,40 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="maincontainer">
+    <div class="container">
       <h1 class="fnFamRegular">Ani Nadiradze</h1>
       <hr class="hr1" />
-      <ul class="generalInfo">
-        <li>Date of birth: 23/01/1998</li>
-        <li class="vl1"></li>
-        <li>Nationality: Georgian</li>
-        <li class="vl1"></li>
-        <li>Gender: Female</li>
-        <li class="vl1"></li>
-        <li>Tel: (+995) 59194202</li>
-        <li class="vl1"></li>
-        <li>E-mail: anadiradze98@gmail.com</li>
-      </ul>
-      <div class="middlePart">
+      <header>
+        <ul class="generalInfo">
+          <li>Date of birth: 23/01/1998</li>
+          <li class="vl1"></li>
+          <li>Nationality: Georgian</li>
+          <li class="vl1"></li>
+          <li>Gender: Female</li>
+          <li class="vl1"></li>
+          <li>Tel: (+995) 59194202</li>
+          <li class="vl1"></li>
+          <li>E-mail: anadiradze98@gmail.com</li>
+        </ul>
+        <nav>
+          <ul class="navBarUl">
+            <li class="fnFamRegular"><a href="#">WORK EXPERIENCE</a></li>
+            <li class="vl1"></li>
+            <li class="fnFamRegular"><a href="#">EDUCATION AND TRAINING</a></li>
+            <li class="vl1"></li>
+            <li class="fnFamRegular"><a href="#">LANGUAGES & SKILLS</a></li>
+            <li class="vl1"></li>
+            <li class="fnFamRegular"><a href="#">BRIEF INFO ABOUT ME</a></li>
+            <li class="vl1"></li>
+            <li class="fnFamRegular"><a href="#">CODE EXAMPLES</a></li>
+            <li class="vl1"></li>
+            <li class="fnFamRegular"><a href="#">PROJECT EXAMPLES</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="middlePart">
         <ul class="middlePartUl fnFamRegular">
-          <li class="fnFamRegular">WORK EXPERIENCE</li>
+          <li class="fnFamRegular"><h2>WORK EXPERIENCE</h2></li>
           <li class="hr1"></li>
           <li class="fnFamThin">15/12/2019 – CURRENT – Tbilisi, Georgia</li>
           <li class="fnFamExtraLight">
@@ -36,7 +53,7 @@
           </li>
         </ul>
         <ul class="middlePartUl fnFamRegular">
-          <li class="fnFamRegular">EDUCATION AND TRAINING</li>
+          <li class="fnFamRegular"><h2>EDUCATION AND TRAINING</h2></li>
           <li class="hr1"></li>
           <li class="fnFamThin">01/09/2016 – 30/09/2020</li>
           <li class="fnFamExtraLight">
@@ -69,7 +86,43 @@
             >
           </li>
         </ul>
-      </div>
+        <ul class="middlePartUl fnFamRegular">
+          <li class="fnFamRegular"><h2>LANGUAGES & SKILLS</h2></li>
+          <li class="hr1"></li>
+          <li class="fnFamExtraLight">Georgian - native</li>
+          <li class="fnFamExtraLight">English - B2+</li>
+          <li class="fnFamExtraLight">
+            Problem solving, working under preassure, communication skills.
+          </li>
+        </ul>
+        <ul class="middlePartUl fnFamRegular">
+          <li class="fnFamRegular"><h2>BRIEF INFO ABOUT ME</h2>
+            <li class="hr1"></li>
+            <li class="fnFamExtraLight">
+            <p>
+              I have participated in Javascript/Front-End mentoring program at
+              RSSchool, also several courses on Udemy.
+            </p>
+          </li>
+        </ul>
+        <ul class="middlePartUl fnFamRegular">
+          <li class="fnFamRegular"><h2>CODE EXAMPLES</h2></li>
+          <li class="hr1"></li>
+          <li class="fnFamExtraLight">
+            <p>
+              const isPalindrome =(line) => {return line.split("").reverse().join("") === line ? true : false}
+            </p>
+          </li>
+        </ul>
+        <ul class="middlePartUl fnFamRegular">
+          <li class="fnFamRegular"><h2>PROJECT EXAMPLES</h2></li>
+          <li class="hr1"></li>
+          <li class="fnFamExtraLight">
+            <a href="https://anadiradze.github.io/rsschool-cv/cv">CV LINK</a>
+          </li>
+        </ul>
+        
+      </main>
       <footer class="maincontainer">
         <ul class="generalInfo">
           <li class="fnFamExtraLight">

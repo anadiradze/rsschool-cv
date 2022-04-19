@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
 }
-.maincontainer {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +27,6 @@
 .hr1 {
   height: 2px;
   border-width: 0;
-  color: gray;
   background-color: gray;
 }
 .vl1 {
@@ -50,4 +49,15 @@
 .logo {
   width: 80px;
   height: 80px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.navBarUl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }

@@ -61,3 +61,7 @@ header {
   display: flex;
   flex-direction: row;
 }
+.myimage{
+  width: 100px;
+  height: 100px;
+}
